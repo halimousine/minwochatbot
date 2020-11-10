@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Getting Set Up for the Chatbot
+npx create-react-app chatbot
+cd chatbot
+yarn add react-chatbot-kit
+yarn start
+
 ## Available Scripts
 
 In the project directory, you can run:
