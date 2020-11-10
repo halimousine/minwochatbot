@@ -9,6 +9,14 @@ cd chatbot
 
 yarn add react-chatbot-kit
 
+git init 
+
+git remote add origin https://github.com/halimousine/minwochatbot.git
+
+git branch -M main
+
+git pull origin main
+
 yarn start
 
 ## Available Scripts
