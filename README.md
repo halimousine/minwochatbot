@@ -4,8 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Getting Set Up for the Chatbot
 npx create-react-app chatbot
+
 cd chatbot
+
 yarn add react-chatbot-kit
+
 yarn start
 
 ## Available Scripts
