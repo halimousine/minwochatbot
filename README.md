@@ -11,6 +11,8 @@ yarn
 
 yarn start
 
+*Do not upgrade or reinstall new packages or dependencies! Only run yarn or yarn install.*
+
 ## Available Scripts
 
 In the project directory, you can run:
