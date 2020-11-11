@@ -7,7 +7,7 @@ git clone https://github.com/halimousine/minwochatbot.git
 
 cd minwochatbot
 
-yarn add
+yarn
 
 yarn start
 
