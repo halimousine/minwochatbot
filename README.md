@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Getting You Set Up for the Chatbot
 git clone https://github.com/halimousine/minwochatbot.git
 
@@ -12,6 +8,10 @@ yarn
 yarn start
 
 *Do not upgrade or reinstall new packages or dependencies! Only run yarn or yarn install.*
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
