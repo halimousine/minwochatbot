@@ -2,20 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Getting Set Up for the Chatbot
-npx create-react-app chatbot
+# Getting You Set Up for the Chatbot
+git clone https://github.com/halimousine/minwochatbot.git
 
-cd chatbot
+cd minwochatbot
 
-yarn add react-chatbot-kit
-
-git init 
-
-git remote add origin https://github.com/halimousine/minwochatbot.git
-
-git branch -M main
-
-git pull origin main
+yarn add
 
 yarn start
 
@@ -85,3 +77,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Initial Setup
+npx create-react-app chatbot
+
+cd chatbot
+
+yarn add react-chatbot-kit
+
+git init 
+
+git remote add origin https://github.com/halimousine/minwochatbot.git
+
+git branch -M main
+
+git pull origin main
+
+yarn start
