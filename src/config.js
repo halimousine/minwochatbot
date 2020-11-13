@@ -1,7 +1,29 @@
+import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
-const config = {
-  initialMessages: [createChatBotMessage(`Hello world`)]
-}
+import HelpOptions from "./components/HelpOptions/HelpOptions";
 
-export default config
+const config = {
+  botName: "Rialto Chat",
+  initialMessages: [
+    createChatBotMessage("Welcome to Rialto! What can we help you with today?", {
+      widget: "helpOptions",
+    }),
+  ],
+  customStyles: {
+    botMessageBox: {
+      backgroundColor: "#F3A712",
+    },
+    chatButton: {
+      backgroundColor: "#F3A712",
+    },
+  },
+  widgets: [
+    {
+      widgetName: "helpOptions",
+      widgetFunc: (props) => <HelpOptions {...props} />,
+    },
+  ],
+};
+
+export default config;
