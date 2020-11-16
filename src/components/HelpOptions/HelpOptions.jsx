@@ -4,17 +4,14 @@ import "./HelpOptions.css";
 
 const HelpOptions = (props) => {
   const options = [
-    {
-      text: "Explore Neighborhoods",
-      handler: () => {},
-      id: 1,
-    },
+    {text: "Explore Neighborhoods",handler: () => {},id: 1},
     { text: "Work with Experts", handler: () => {}, id: 2 },
     { text: "Discover Resources", handler: () => {}, id: 3 },
     { text: "Meet Other Members", handler: () => {}, id: 4 },
     { text: "Find Events", handler: () => {}, id: 5 },
     { text: "Browse Posts", handler: () => {}, id: 6 },
     { text: "Purchase Services", handler: () => {}, id: 7 },
+    { text: "Website", handler: props.actionProvider.handleWebsiteList, id: 8},
   ];
 
   const optionsMarkup = options.map((option) => (
