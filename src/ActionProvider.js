@@ -5,9 +5,26 @@ class ActionProvider {
   }
 
   greet() {
-    const greetingMessage = this.createChatBotMessage("Wusgoodie")
+    const greetingMessage = this.createChatBotMessage("Wassup")
     this.updateChatbotState(greetingMessage)
   }
+
+  handleWebsiteList = () => {
+    const message = this.createChatBotMessage("Great! Here's links to the MINWO website and what we have to offer you.",
+      {
+        widget: "WebsiteLinks",
+      }
+    );
+    this.updateChatbotState(message);
+  };
+
+  help = () => {
+    const message = this.createChatBotMessage("Welcome to Rialto! What can we help you with today?", {
+      widget: "helpOptions",
+      }
+    );
+    this.updateChatbotState(message);
+  };
 
   updateChatbotState(message) {
     this.setState(prevState => ({
