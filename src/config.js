@@ -5,7 +5,7 @@ import HelpOptions from "./components/HelpOptions/HelpOptions";
 import LinkList from "./components/LinkList/LinkList";
 
 const config = {
-  botName: "Rialto Chat",
+  botName: "Rialbot",
   customStyles: {
     botMessageBox: {
       backgroundColor: "#F3A712",
@@ -15,7 +15,7 @@ const config = {
     },
   },
   initialMessages: [
-    createChatBotMessage("Welcome to Rialto! What can we help you with today?", {
+    createChatBotMessage("Hi! My name is Rialbot! Welcome to Rialto! What can we help you with today?", {
       widget: "helpOptions",
     }),
   ],
