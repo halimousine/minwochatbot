@@ -12,3 +12,17 @@
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
 }
+
+.react-chatbot-kit-chat-bot-message {
+  text-align: left;
+  font-size: 15px;
+  font-family: Source Sans Pro;
+
+}
+/*need to find class in react chatbot that changes style of chatbot box*/
+.react-chatbot-kit-chat-bot {
+  background: #F2F2F2;
+  border: 0.4px solid #3B7A71;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
