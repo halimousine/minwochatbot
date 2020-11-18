@@ -19,7 +19,7 @@ class ActionProvider {
   };
 
   help = () => {
-    const message = this.createChatBotMessage("Welcome to Rialto! What can we help you with today?", {
+    const message = this.createChatBotMessage("What can we help you with today?", {
       widget: "helpOptions",
       }
     );

@@ -5,10 +5,11 @@
 }
 
 .help-option-button {
-  color: #ffffff;
+  color: #333333;
   padding: 0.5rem;
-  border-radius: 30px;
-  background: #F3A712;
-  border: 2px solid #F3A712;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #FFFFFF;
+  border: 1px solid #3B7A71;
   margin: 4px;
 }

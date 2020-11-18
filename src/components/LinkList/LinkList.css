@@ -4,7 +4,9 @@
 
 .link-list-item {
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 20px;
+    font-family: Source Sans Pro;
+
   }
   
   .link-list-item-url {
@@ -12,7 +14,7 @@
     margin: 6px;
     display: block;
     color: #ffffff;
-    background-color: #6b996a;
+    background-color: #461C3F;
     padding: 8px;
     border-radius: 3px;
     box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
