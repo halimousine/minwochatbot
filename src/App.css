@@ -13,6 +13,15 @@
   color: rgb(255, 255, 255);
 }
 
+/**If properties are already created in react-chatbot-kit, then we are unable to overwrite it.
+If they are not, then we can add the css property. 
+Example: width: 600px does NOT overwrite, but font-weight DOES.
+*/
+.react-chatbot-kit-chat-container {
+  width: 600px;
+  font-weight: bold; 
+}
+
 .react-chatbot-kit-chat-bot-message {
   text-align: left;
   font-size: 15px;

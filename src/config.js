@@ -21,7 +21,7 @@ const config = {
    header: () => <div style={{backgroundColor: "#F4A712", padding: "5px", borderRadius: "3px" ,border: "0.4px solid #F4A712"}}>Rialto Chat</div>
   },
   initialMessages: [
-    createChatBotMessage("Welcome to" + " Rialto ".bold()+ "My name is Melanie! What can I help you with today?", {
+    createChatBotMessage("Welcome to Rialto. My name is Melanie! What can I help you with today?", {
       widget: "helpOptions",
     }),
   ],
