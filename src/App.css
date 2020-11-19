@@ -32,12 +32,34 @@
   height: 424px;
 }
 
+.bot-avatar 
+
+.bot-avatar-container
+
+.bot-avatar-letter
+
+.bot-message
+
+.chat-header {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #efefef;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #514f4f;
+  padding: 12.5px;
+  font-weight: bold;
+}
 .input-container {
   position: absolute;
   bottom: 0;
   width: 100%;
   display: flex;
 }
+
+.bot-arrow
 
 /* Deleting css styling from npm package react-chatbot-kit**/
 .react-chatbot-kit-chat-container {
