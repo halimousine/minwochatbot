@@ -13,6 +13,7 @@
   color: rgb(255, 255, 255);
 }
 
+/* chatbot CSS**/
 .chat-container {
   position: relative;
   width: 275px;
@@ -32,11 +33,32 @@
   height: 424px;
 }
 
+.chat_header {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #efefef;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #514f4f;
+  padding: 12.5px;
+  font-weight: bold;
+}
+
 .bot-avatar 
 
-.bot-avatar-container
-
-.bot-avatar-letter
+.bot-avatar-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  margin-right: 12.5px;
+  background-color: #d8d8d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .bot-message
 
