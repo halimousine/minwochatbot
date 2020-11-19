@@ -13,16 +13,70 @@
   color: rgb(255, 255, 255);
 }
 
-.react-chatbot-kit-chat-bot-message {
-  text-align: left;
-  font-size: 15px;
-  font-family: Source Sans Pro;
-
+.chat-container {
+  position: relative;
+  width: 275px;
 }
-/*need to find class in react chatbot that changes style of chatbot box*/
-.react-chatbot-kit-chat-bot {
+
+.chat-inner-container {
+  height: 500px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.message-container { 
+  padding: 0 17.5px 10px 17.5px;
+  overflow: scroll;
+  height: 424px;
+}
+
+.input-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+/* Deleting css styling from npm package react-chatbot-kit**/
+.react-chatbot-kit-chat-container {
+  display: none;
+}
+.react-chatbot-kit-chat-inner-container{
+  display:none;
+}
+
+.react-chatbot-kit-chat-bot-message-container {
+  display: none;
+}
+
+.react-chatbot-kit-chat-input-container {
+  display:none;
+}
+/**
+.react-chatbot-kit-chat-bot-message {
+  display: none;
+}
+*/
+
+  /**
   background: #F2F2F2;
   border: 0.4px solid #3B7A71;
   box-sizing: border-box;
-  border-radius: 12px;
-}
+  border-radius: 120px;
+  */
+
+  /*color: #4F4F4F;
+  text-align: left;
+  font-size: 15px;
+  font-family: Source Sans Pro;*/
+  
+  /**height: 500px;
+  background-color: #4F4F4F;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 10px solid #3B7A71;
+  */
+

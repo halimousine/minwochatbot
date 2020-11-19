@@ -18,10 +18,14 @@ const config = {
   },
   customComponents: {
     // Replaces the default header
-   header: () => <div style={{backgroundColor: "#F4A712", padding: "5px", borderRadius: "3px" ,border: "0.4px solid #F4A712"}}>Rialto Chat</div>
+   header: () => <div style={{backgroundColor: "#F4A712", padding: "5px", borderRadius: "3px" ,border: "0.4px solid #F4A712"}}>Rialto Chat</div>,
+   /*botChatMessage: (props) => <CustomChatMessage {..props} />, color: "#4F4F4F"*/
+   //botAvatar
+   //userAvatar
+   //userChatMessage
   },
   initialMessages: [
-    createChatBotMessage("Welcome to" + " Rialto ".bold()+ "My name is Melanie! What can I help you with today?", {
+    createChatBotMessage("Welcome to Rialto. My name is Melanie! What can I help you with today?", {
       widget: "helpOptions",
     }),
   ],
