@@ -11,15 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div class="chat-container">
-          <div class = "chat-inner-container">
-            <div class = "message-container">
-            </div>
-            <div class = "input-container"> 
-              <Chatbot config={config} actionProvider={ActionProvider} messageParser={MessageParser} />
-            </div>
-          </div>
-        </div>
+        <Chatbot config={config} actionProvider={ActionProvider} messageParser={MessageParser} />
       </header>
     </div>
   );
