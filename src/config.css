@@ -1,15 +1,116 @@
-.config-bot-container {
-    background: #F2F2F2;
-    border: 0.4px solid #3B7A71;
-    box-sizing: border-box;
+.react-chatbot-kit-chat-container {
+    width: 476px;
+    height: 1203px;
+    
+}
+
+.react-chatbot-kit-chat-inner-container {
+    width: 476px;
+    height: 1183px;
+}
+
+.react-chatbot-kit-chat-header {
+    background: #461C3F;
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    height:80px;
+    width: 476px;
+    
+
+}
+
+.react-chatbot-kit-chat-message-container {
+    height: 1123px;
+}
+
+.react-chatbot-kit-chat-bot-message-container {
     border-radius: 12px;
 }
 
-.react-chatbot-kit-chat-container {
-    width: 600px;
+.react-chatbot-kit-chat-bot-avatar {
+    border: 0.3px solid #C5A3C9;
+    box-sizing: border-box;
+
 }
 
+.react-chatbot-kit-chat-bot-avatar-container{
 
-.react-chatbot-kit-chat-bot-message {
+}
+
+.react-chatbot-kit-chat-bot-avatar-letter{
+
+}
+
+.react-chatbot-kit-chat-bot-message{
     margin-left: 5px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    color: #4F4F4F;
+    box-sizing: border-box;
+    border: 0.05px solid #461C3F;
+    background: #F2F2F2;
+    border-radius: 12px;
 }
+
+.react-chatbot-kit-chat-bot-message-arrow{
+    display: none;
+}
+
+.react-chatbot-kit-user-chat-message-container{
+
+}
+
+.react-chatbot-kit-user-chat-message{
+    background: #F3A712;
+    border-radius: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.react-chatbot-kit-user-chat-message-arrow{
+    display: none;
+}
+
+.react-chatbot-kit-user-avatar{
+
+}
+
+.react-chatbot-kit-user-avatar-container{
+
+}
+
+.react-chatbot-kit-user-avatar-icon{
+
+}
+
+.react-chatbot-kit-chat-input-container{
+    height: 60px;
+    width: 476px;
+}
+
+.react-chatbot-kit-chat-input-form {
+    
+}
+
+.react-chatbot-kit-chat-input {
+    border: 0.5px solid #3B7A71;
+    box-sizing: border-box;
+}
+
+.react-chatbot-kit-chat-btn-send {
+
+}
+
+.react-chatbot-kit-chat-btn-send-icon {
+
+}
+
+
+

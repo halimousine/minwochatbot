@@ -10,15 +10,15 @@ const config = {
   botName: "Rialto Chat",
   customStyles: {
     botMessageBox: {
-      backgroundColor: "#F4A712",
+      backgroundColor: "#F2F2F2",
     },
     chatButton: {
-      backgroundColor: "#F3A712",
+      backgroundColor: "#3B7A71",
     },
   },
   customComponents: {
     // Replaces the default header
-   header: () => <div style={{backgroundColor: "#F4A712", padding: "5px", borderRadius: "3px" ,border: "0.4px solid #F4A712"}}>Rialto Chat</div>
+   header: () => <div style={{backgroundColor: "#461C3F" ,color: "#FFFFFF", height: "40px", fontFamily: "Source Sans Pro", fontStyle: "normal", fontSize: "20px", padding: "10px"}}>Rialto Chat</div>
   },
   initialMessages: [
     createChatBotMessage("Welcome to Rialto. My name is Melanie! What can I help you with today?", {
