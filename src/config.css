@@ -5,5 +5,11 @@
     border-radius: 12px;
 }
 
+.react-chatbot-kit-chat-container {
+    width: 600px;
+}
 
 
+.react-chatbot-kit-chat-bot-message {
+    margin-left: 5px;
+}
