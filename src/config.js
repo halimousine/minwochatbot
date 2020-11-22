@@ -18,7 +18,16 @@ const config = {
   },
   customComponents: {
     // Replaces the default header
-   header: () => <div style={{backgroundColor: "#461C3F" ,color: "#FFFFFF", height: "40px", fontFamily: "Source Sans Pro", fontStyle: "normal", fontSize: "20px", padding: "10px"}}>Rialto Chat</div>
+   header: () => <div style={{
+     backgroundColor: "#461C3F",
+     color: "#FFFFFF", 
+     height: "40px", 
+     fontStyle: "normal", 
+     fontSize: "20px", 
+     padding: "10px"
+    }}>
+      Rialto Chat
+      </div>
   },
   initialMessages: [
     createChatBotMessage("Welcome to Rialto. My name is Melanie! What can I help you with today?", {
