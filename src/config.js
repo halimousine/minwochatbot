@@ -2,6 +2,9 @@ import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 import NeighborhoodFlow1 from "./components/ExploreNeighborhoods/NeighborhoodFlow1";
 import NeighborhoodFlow2 from "./components/ExploreNeighborhoods/NeighborhoodFlow2";
+import NeighborhoodFlow3 from "./components/ExploreNeighborhoods/NeighborhoodFlow3";
+import NeighborhoodFlow4 from "./components/ExploreNeighborhoods/NeighborhoodFlow4";
+import NeighborhoodFlow5 from "./components/ExploreNeighborhoods/NeighborhoodFlow5";
 import HelpOptions from "./components/HelpOptions/HelpOptions";
 import LinkList from "./components/LinkList/LinkList";
 
@@ -49,6 +52,21 @@ const config = {
       widgetName: "NeighborhoodFlow2",
       widgetFunc: (props) => <NeighborhoodFlow2 {...props} />,
     },
+    {
+      widgetName: "NeighborhoodFlow3",
+      widgetFunc: (props) => <NeighborhoodFlow3 {...props} />,
+    },
+
+    {
+      widgetName: "NeighborhoodFlow4",
+      widgetFunc: (props) => <NeighborhoodFlow4 {...props} />,
+    },
+
+    {
+      widgetName: "NeighborhoodFlow5",
+      widgetFunc: (props) => <NeighborhoodFlow5 {...props} />,
+    },
+
   ],
 };
 

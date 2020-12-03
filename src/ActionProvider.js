@@ -48,6 +48,30 @@ class ActionProvider {
     this.updateChatbotState(q2);
   }
 
+  handleNeighborhoodFlow3 = () => {
+    const q3 = this.createChatBotMessage("How much funding are you seeking?", 
+      {widget: "NeighborhoodFlow3",
+      }
+    );
+    this.updateChatbotState(q3);
+  }
+
+  handleNeighborhoodFlow4 = () => {
+    const q4 = this.createChatBotMessage("What industry is your business categorized in, if any?", 
+      {widget: "NeighborhoodFlow4",
+      }
+    );
+    this.updateChatbotState(q4);
+  }
+
+  handleNeighborhoodFlow5 = () => {
+    const q5 = this.createChatBotMessage("Do you need help with anything else?", 
+      {widget: "NeighborhoodFlow5",
+      }
+    );
+    this.updateChatbotState(q5);
+  }
+
   updateChatbotState(message) {
     this.setState(prevState => ({
       //... inserts a list into another list. 

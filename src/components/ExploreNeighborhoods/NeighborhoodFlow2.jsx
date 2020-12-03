@@ -5,8 +5,8 @@ import "./NeighborhoodFlow.css";
 const NeighborhoodFlow2 = (props) => {
     
   const options = [
-    {text: "Yes",handler: () => {},id: 1},
-    { text: "No", handler: () => {}, id: 2 },
+    {text: "Yes",handler: props.actionProvider.handleNeighborhoodFlow3,id: 1},
+    { text: "No", handler: props.actionProvider.handleNeighborhoodFlow3, id: 2 },
   ];
 
   const optionsMarkup = options.map((option) => (
