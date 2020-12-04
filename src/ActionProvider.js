@@ -24,6 +24,19 @@ class ActionProvider {
     this.updateChatbotState(message);
   }
 
+  goodbye = () => {
+    const message = this.createChatBotMessage("Ok, have a good day! Please give us feedback on your chatbot experience.", 
+    {widget: "Feedback"}
+    );
+    this.updateChatbotState(message);
+  }
+
+  thanks = () => {
+    const message = this.createChatBotMessage("Thanks!", 
+    );
+    this.updateChatbotState(message);
+  }
+
   /** BUTTON INTERACTION */
   handleNeighborhoodFlow1 = () => {
     const intro = this.createChatBotMessage("Let's figure out what neighborhoods you may be interested in!",
