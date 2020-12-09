@@ -3,8 +3,14 @@ import { createChatBotMessage } from "react-chatbot-kit";
 import {NeighborhoodFlow1, NeighborhoodFlow2, NeighborhoodFlow3, NeighborhoodFlow4} 
 from "./components/ExploreNeighborhoods/NeighborhoodFlow";
 
-import {WWExperts1, WWExperts2, WWExperts3, WWExperts4, WWExperts5, WWExperts6, WWExperts7} 
+import {WWExperts1, WWExperts2, WWExperts3, WWExperts4} 
 from "./components/WorkWithExperts/WorkWithExperts";
+
+import {Resources1, Resources2} 
+from "./components/DiscoverResources/Resources";
+
+import {Services1, Services2} 
+from "./components/BrowseServices/Services";
 
 import {HelpOptions, HelpEnd, Feedback} from "./components/HelpOptions/HelpOptions";
 
@@ -49,9 +55,11 @@ const config = {
     {widgetName: "WWExperts3",widgetFunc: (props) => <WWExperts3 {...props} />,},
     {widgetName: "WWExperts4",widgetFunc: (props) => <WWExperts4 {...props} />,},
     {widgetName: "Feedback",widgetFunc: (props) => <Feedback {...props} />,},
-    //{widgetName: "WWExperts5",widgetFunc: (props) => <WWExperts5 {...props} />,},
-    //{widgetName: "WWExperts6",widgetFunc: (props) => <WWExperts6 {...props} />,},
-    //{widgetName: "WWExperts7",widgetFunc: (props) => <WWExperts7 {...props} />,},
+    {widgetName: "Resources1",widgetFunc: (props) => <Resources1 {...props} />,},
+    {widgetName: "Resources2",widgetFunc: (props) => <Resources2 {...props} />,},
+    {widgetName: "Resources2",widgetFunc: (props) => <Resources2 {...props} />,},
+    {widgetName: "Services1",widgetFunc: (props) => <Services1 {...props} />,},
+    {widgetName: "Services2",widgetFunc: (props) => <Services2 {...props} />,},
   ],
 };
 

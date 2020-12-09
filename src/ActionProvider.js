@@ -123,6 +123,44 @@ class ActionProvider {
     this.updateChatbotState(q7);
   }
 
+  handleResources1 = () => {
+    const intro = this.createChatBotMessage("Let's figure out what resources you need to help guide your business!",
+    );
+    this.updateChatbotState(intro);
+    const q1 = this.createChatBotMessage("What industry do you need help/guidance on?", 
+      {widget: "Resources1",}
+    );
+    // if one of the q1 buttons is clicked, that data is logged and q2 is asked. 
+    this.updateChatbotState(q1);
+  };
+
+  handleResources2 = () => {
+    const q2 = this.createChatBotMessage("What expertise are you looking for?", 
+      {widget: "Resources2",}
+    );
+    // if one of the q1 buttons is clicked, that data is logged and q2 is asked. 
+    this.updateChatbotState(q2);
+  };
+
+  handleServices1 = () => {
+    const intro = this.createChatBotMessage("Let's figure out what services you need to help guide your business!",
+    );
+    this.updateChatbotState(intro);
+    const q1 = this.createChatBotMessage("What industry do you need help/guidance on?", 
+      {widget: "Services1",}
+    );
+    // if one of the q1 buttons is clicked, that data is logged and q2 is asked. 
+    this.updateChatbotState(q1);
+  };
+
+  handleServices2 = () => {
+    const q2 = this.createChatBotMessage("What expertise are you looking for?", 
+      {widget: "Services2",}
+    );
+    // if one of the q1 buttons is clicked, that data is logged and q2 is asked. 
+    this.updateChatbotState(q2);
+  };
+
   updateChatbotState(message) {
     this.setState(prevState => ({
       //... inserts a list into another list. 
