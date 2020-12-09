@@ -12,6 +12,12 @@ from "./components/DiscoverResources/Resources";
 import {Services1, Services2} 
 from "./components/BrowseServices/Services";
 
+import {Members1, Members2} 
+from "./components/MeetOtherMembers/Members";
+
+import {Events1, Events2} 
+from "./components/FindEvents/Events";
+
 import {HelpOptions, HelpEnd, Feedback} from "./components/HelpOptions/HelpOptions";
 
 //import {BotImg} from "../public/bot-avatar.png";
@@ -60,6 +66,10 @@ const config = {
     {widgetName: "Resources2",widgetFunc: (props) => <Resources2 {...props} />,},
     {widgetName: "Services1",widgetFunc: (props) => <Services1 {...props} />,},
     {widgetName: "Services2",widgetFunc: (props) => <Services2 {...props} />,},
+    {widgetName: "Members1",widgetFunc: (props) => <Members1 {...props} />,},
+    {widgetName: "Members2",widgetFunc: (props) => <Members2 {...props} />,},
+    {widgetName: "Events1",widgetFunc: (props) => <Events1 {...props} />,},
+    {widgetName: "Events2",widgetFunc: (props) => <Events2 {...props} />,},
   ],
 };
 

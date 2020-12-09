@@ -7,10 +7,10 @@ const HelpOptions = (props) => {
     {text: "Explore Neighborhoods", handler: props.actionProvider.handleNeighborhoodFlow1 ,id: 1},
     { text: "Work with Experts", handler: props.actionProvider.handleWWExperts1, id: 2 },
     { text: "Discover Resources", handler: props.actionProvider.handleResources1, id: 3 },
-    { text: "Meet Other Members", handler: () => {}, id: 4 },
-    { text: "Find Events", handler: () => {}, id: 5 },
-    { text: "Browse Posts", handler: () => {}, id: 6 },
-    { text: "Purchase Services", handler: props.actionProvider.handleServices1, id: 7 },
+    { text: "Meet Other Members", handler: props.actionProvider.handleMembers1, id: 4 },
+    { text: "Find Events", handler: props.actionProvider.handleEvents1, id: 5 },
+    //{ text: "Browse Posts", handler: () => {}, id: 6 },
+    { text: "Purchase Services", handler: props.actionProvider.handleServices1, id: 6 },
   ];
 
   const optionsMarkup = options.map((option) => (

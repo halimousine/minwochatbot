@@ -15,6 +15,23 @@
     if (lowerCaseMessage.includes("neighborhood")) {
       this.actionProvider.handleNeighborhoodFlow1();
     }
+
+    if (lowerCaseMessage.includes("events")) {
+      this.actionProvider.handleEvents1();
+    }
+
+    if (lowerCaseMessage.includes("services")) {
+      this.actionProvider.handlesServices1();
+    }
+
+    if (lowerCaseMessage.includes("members")) {
+      this.actionProvider.handleMembers1();
+    }
+
+    if (lowerCaseMessage.includes("resources")) {
+      this.actionProvider.handleResources1();
+    }
+
   }
 }
 
